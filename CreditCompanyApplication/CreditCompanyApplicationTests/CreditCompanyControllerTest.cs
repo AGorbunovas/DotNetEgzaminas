@@ -6,7 +6,7 @@ namespace CreditCompanyApplicationTests
     public class CreditCompanyControllerTest
     {
         [Fact]
-        public void Test1()
+        public void CouldSaveUser()
         {
 
         }

@@ -10,11 +10,11 @@ namespace CreditCompanyApplication
             Console.WriteLine("Sveiki vartotojau. Iveskite savo duomenis.");
             Console.Write("Iveskite savo varda: ");
             var firstName = Console.ReadLine();
-            Console.WriteLine();
-            Console.Write("Iveskite savo pavarde: ");
-            var lastName = Console.ReadLine();
+            //Console.WriteLine();
+            //Console.Write("Iveskite savo pavarde: ");
+            //var lastName = Console.ReadLine();
 
-            var userController = new UserController(firstName, lastName);
+            var userController = new UserController(firstName);
             userController.Save();
         }
     }

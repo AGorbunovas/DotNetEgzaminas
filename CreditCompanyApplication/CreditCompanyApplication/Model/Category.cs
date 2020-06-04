@@ -4,7 +4,13 @@ using System.Text;
 
 namespace CreditCompanyApplication.Model
 {
-    class Category
+    public class Category
     {
+        public string CategoryName { get; set; }
+
+        public Category()
+        {
+
+        }
     }
 }
